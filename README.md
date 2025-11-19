@@ -1,3 +1,3 @@
 # wdd130-project-batty
 
-This is my project!!!
+Hello everyone! Welcome to my amazing project :)
