@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Batty Bakes | Order Here</title>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+
+<header class="header">
+<div class="logo-area">
+    <img src="images/battylogo.png" alt="Batty Bakes Logo">
+</div>
+
+<nav class="nav">
+    
+    <a href="index.html">Home</a>
+    <a href="subpage1.html">The Goods</a>
+    <a href="cart.html" class="active">Order Here</a>
+</nav>
+</header>
+
+
+<main class="order-main">
+
+<!-- PAGE INTRO -->
+<section class="order-hero">
+    <h1>Review Your Order</h1>
+    <p>
+        This is where you can see a summary of your tasty treats before submitting
+        your order request. In a full website, items would appear here after you
+        add them from <strong>The Goods</strong> page.
+    </p>
+</section>
+
+<!-- CART TABLE -->
+<section class="cart-section">
+    <h2>Your Cart</h2>
+
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Notes / Allergy Info</th>
+                <th>Qty</th>
+                <th>Price</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>Chocolate Chip Cookies (dozen)</td>
+                <td>No nut allergy, okay with gluten</td>
+                <td>2</td>
+                <td>$6.00</td>
+                <td>$12.00</td>
+            </tr>
+            <tr>
+                <td>Vanilla Layer Cake</td>
+                <td>"Happy Birthday Molli" written on top</td>
+                <td>1</td>
+                <td>$25.00</td>
+                <td>$25.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" class="cart-total-label">Estimated Total</th>
+                <th class="cart-total-amount">$37.00</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p class="cart-note">
+        Note: This is a small-batch home bakery. Totals and availability may change
+        slightly based on your final order and pickup time.
+    </p>
+</section>
+
+<!-- ORDER FORM -->
+<section class="order-form-section">
+    <h2>Order Details</h2>
+    <p>
+        Fill out the form below so we can confirm your order, share payment details,
+        and arrange a pickup time that works best for you.
+    </p>
+
+    <form class="order-form">
+        <label>
+            Name
+            <input type="text" name="customer-name" required>
+        </label>
+
+        <label>
+            Email
+            <input type="email" name="customer-email" required>
+        </label>
+
+        <label>
+            Phone
+            <input type="tel" name="customer-phone" required>
+        </label>
+
+        <label>
+            Preferred Pickup Date &amp; Time
+            <input type="datetime-local" name="pickup">
+        </label>
+
+        <label>
+            Special Instructions
+            <textarea name="instructions" rows="4" placeholder="Allergies, packaging requests, occasion notes, etc."></textarea>
+        </label>
+
+        <button type="submit" class="button">
+            Submit Order Request
+        </button>
+    </form>
+
+    <p class="order-note">
+        Orders are not final until you receive a confirmation message.
+        This form simply sends your request so we can coordinate details.
+    </p>
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+<div class="footer-row">
+
+    
+    <div class="footer-left">
+        <img src="images/battylogo.png" alt="Batty Bakes Logo">
+    </div>
+
+    
+    <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="goods.html">The Goods</a>
+        <a href="order-here.html">Order Here</a>
+        <a href="#">Contact Me!</a>
+    </nav>
+
+    
+    <div class="footer-social">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+
+</div>
+
+
+<div class="footer-bottom">
+    <p>© 2024 Batty Bakes. All rights reserved.</p>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Service</a>
+</div>
+
+</footer>
+
+</body>
+</html>
