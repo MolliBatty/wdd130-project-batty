@@ -172,3 +172,126 @@ body {
         gap: 40px;
     }
 }
+
+
+
+
+
+
+
+
+
+/* === ORDER / CART PAGE STYLES === */
+
+.order-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px 60px;
+}
+
+/* Top intro text */
+.order-hero {
+    margin-bottom: 30px;
+}
+
+.order-hero h1 {
+    font-family: 'Momo Signature', cursive;
+    font-size: 40px;
+    color: #B82B5F;
+    margin-bottom: 10px;
+}
+
+.order-hero p {
+    font-size: 16px;
+}
+
+/* Cart + form “cards” */
+.cart-section,
+.order-form-section {
+    background-color: #ffffff;
+    padding: 20px 24px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.cart-section h2,
+.order-form-section h2 {
+    margin-bottom: 10px;
+    color: #B82B5F;
+}
+
+/* Cart table */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.cart-table th,
+.cart-table td {
+    border: 1px solid #FDCBB0;
+    padding: 8px 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.cart-table thead {
+    background-color: #FEE8EC;
+}
+
+.cart-total-label {
+    text-align: right;
+}
+
+.cart-total-amount {
+    font-weight: 700;
+}
+
+/* Small note text under sections */
+.cart-note,
+.order-note {
+    font-size: 13px;
+    margin-top: 8px;
+    color: #555;
+}
+
+/* Order form layout */
+.order-form {
+    display: grid;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.order-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.order-form input,
+.order-form textarea {
+    margin-top: 4px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font: inherit;
+}
+
+/* Reuse your .button style, just add a little top margin */
+.order-form .button {
+    margin-top: 8px;
+}
+
+/* Make it behave nicely on smaller screens */
+@media (max-width: 700px) {
+    .order-main {
+        padding: 20px 16px 40px;
+    }
+
+    .cart-table th,
+    .cart-table td {
+        font-size: 12px;
+    }
+}
