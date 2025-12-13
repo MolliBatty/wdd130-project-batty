@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Batty Bakes | Order Here</title>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <nav>
+    <header class="header">
+        <div class="logo-area">
+            <img src="images/battylogo.png" alt="Batty Bakes Logo">
+        </div>
+
+        <nav class="nav">
+            
+            <a href="index.html">Home</a>
+            <a href="subpage1.html">The Goods</a>
+            <a href="cart.html" class="active">Order Here</a>
+        </nav>
+    </header>
+
+
+    <!--<nav>
         <img src="images/battylogo.png" alt="logo">
         <div>
             <a href="index.html">Home</a>
-            <a href="subpage1.html">The Goods</a> <!--subpage1-->
-            <a href="subpage2">Order Here</a>
+            <a href="subpage1.html">The Goods</a> subpage1
+            <a href="cart.html">Order Here</a>
         </div>
-    </nav>
-    <div class="goods">
+    </nav>-->
+    
+    <section class="product-preview">
+        <div class="product-card">
+            <div class="thumbnail"></div>
+            <p>Cookies</p>
+        </div>
+
+        <div class="product-card">
+            <div class="thumbnail"></div>
+            <p>Bread</p>
+        </div>
+
+        <div class="product-card">
+            <div class="thumbnail"></div>
+            <p>Cake</p>
+        </div>
+    </section>
+    <!--<div class="goods">
         <div>
             <img src="images/baking.jpg" alt="Placeholder">
             <h3>Medium Length Headline</h3>
@@ -45,23 +83,43 @@
             <h3>Medium Length Headline</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
         </div>
-    </div>
+    </div>-->
 
-    <footer>
-        <img src="logo" alt="logo">
-        <div>
-            <a href="index.html">Home</a>
-            <a href="subpage1.html">The Goods</a> <!--subpage1-->
-            <a href="subpage2">Order Here</a>
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-row">
+
+            <!-- Left: Logo -->
+            <div class="footer-left">
+                <img src="images/battylogo.png" alt="Batty Bakes Logo">
+            </div>
+
+            <!-- Center: Navigation -->
+            <nav class="footer-nav">
+                <a href="#">Home</a>
+                <a href="#">The Goods</a>
+                <a href="#">Order Here</a>
+                <a href="#">Contact Me!</a>
+            </nav>
+
+            <!-- Right: Social icons -->
+            <div class="footer-social">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+
         </div>
-        <div>
-            <a href="contact_me">Contact Me</a>
+
+        <!-- Bottom centered row -->
+        <div class="footer-bottom">
+            <p>© 2024 Batty Bakes. All rights reserved.</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
         </div>
-        <div>
-            <a href="">Instagram</a> <!--These are placeholders and will be change later.-->
-            <a href="">Facebook</a>
-            <a href="">Twitter</a>
-        </div>
+
     </footer>
+
 </body>
 </html>
