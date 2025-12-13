@@ -1,67 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Batty Bakes | Order Here</title>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <nav>
-        <img src="logo" alt="logo">
-        <div>
-            <a href="index.html">Home</a>
-            <a href="subpage1.html">The Goods</a> <!--subpage1-->
-            <a href="subpage2">Order Here</a>
+    <header class="header">
+        <div class="logo-area">
+            <img src="images/battylogo.png" alt="Batty Bakes Logo">
         </div>
-    </nav>
-    <div class="goods">
-        <div>
-            <img src="" alt="Placeholder">
-            <h3>Medium Length Headline</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
-        </div>
-        <div>
-            <img src="" alt="Placeholder">
-            <h3>Medium Length Headline</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
-        </div>
-        <div>
-            <img src="" alt="Placeholder">
-            <h3>Medium Length Headline</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
-        </div>
-        <div>
-            <img src="" alt="Placeholder">
-            <h3>Medium Length Headline</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
-        </div>
-        <div>
-            <img src="" alt="Placeholder">
-            <h3>Medium Length Headline</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
-        </div>
-        <div>
-            <img src="" alt="Placeholder">
-            <h3>Medium Length Headline</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
-        </div>
-    </div>
 
-    <footer>
-        <img src="logo" alt="logo">
-        <div>
+        <nav class="nav">
+            
             <a href="index.html">Home</a>
-            <a href="subpage1.html">The Goods</a> <!--subpage1-->
-            <a href="subpage2">Order Here</a>
+            <a href="subpage1.html">The Goods</a>
+            <a href="cart.html" class="active">Order Here</a>
+        </nav>
+    </header>
+
+    <section class="goods-hero">
+        <div class="goods-hero-text">
+            <h1>The Goods</h1>
+        </div>
+    </section>
+    
+    <section class="goods-preview">
+        <div class="product-card">
+            <img src="images/bread.jpg" class="goods-thumbnail" alt="Bread">
+            <h3>Blueberry Streusel bread</h3>
+            <p>$4.00 Each</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/bread.jpg" class="goods-thumbnail" alt="Bread">
+            <h3>Lemon Raspberry bread</h3>
+            <p>$4.00 Each</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/bread.jpg" class="goods-thumbnail" alt="Bread">
+            <h3>Bannana bread</h3>
+            <p>$4.00 Each</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/bread.jpg" class="goods-thumbnail" alt="Bread">
+            <h3>Zucchini bread</h3>
+            <p>$4.00 Each</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/bread.jpg" class="goods-thumbnail" alt="Bread">
+            <h3>Chocolate Peppermint bread</h3>
+            <p>$4.00 Each</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/bread.jpg" class="goods-thumbnail" alt="Bread">
+            <h3>Pumpkin bread</h3>
+            <p>$4.00 Each</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/cookies.jpg" class="goods-thumbnail" alt="Cookies">
+            <h3>Chocolate Chip Cookies</h3>
+            <p>$6.00 for 1 Dozen</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/cookies.jpg" class="goods-thumbnail" alt="Cookies">
+            <h3>Peanut Butter Cookies</h3>
+            <p>$6.00 for 1 Dozen</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/cookies.jpg" class="goods-thumbnail" alt="Cookies">
+            <h3>Sugar Cookies</h3>
+            <p>$6.00 for 1 Dozen</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/cookies.jpg" class="goods-thumbnail" alt="Cookies">
+            <h3>Snickerdoodles</h3>
+            <p>$6.00 for 1 Dozen</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/cookies.jpg" class="goods-thumbnail" alt="Cookies">
+            <h3>Lemon Cookies</h3>
+            <p>$6.00 for 1 Dozen</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/cake.jpg" class="goods-thumbnail" alt="Cake">
+            <h3>Vanilla Layer Cake</h3>
+            <p>$25.00 Each</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/cake.jpg" class="goods-thumbnail" alt="Cake">
+            <h3>Chocolate Fudge Cake</h3>
+            <p>$25.00 Each</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/cake.jpg" class="goods-thumbnail" alt="Cake">
+            <h3>Red Velvet Cake</h3>
+            <p>$25.00 Each</p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/cake.jpg" class="goods-thumbnail" alt="Cake">
+            <h3>Funfetti Cake</h3>
+            <p>$25.00 Each</p>
+        </div>
+    </section>
+    <!--<div class="goods">
+        <div>
+            <img src="images/baking.jpg" alt="Placeholder">
+            <h3>Medium Length Headline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
         </div>
         <div>
-            <a href="contact_me">Contact Me</a>
+            <img src="" alt="Placeholder">
+            <h3>Medium Length Headline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
         </div>
         <div>
-            <a href="">Instagram</a> <!--These are placeholders and will be change later.-->
-            <a href="">Facebook</a>
-            <a href="">Twitter</a>
+            <img src="" alt="Placeholder">
+            <h3>Medium Length Headline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
         </div>
+        <div>
+            <img src="" alt="Placeholder">
+            <h3>Medium Length Headline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
+        </div>
+        <div>
+            <img src="" alt="Placeholder">
+            <h3>Medium Length Headline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
+        </div>
+        <div>
+            <img src="" alt="Placeholder">
+            <h3>Medium Length Headline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor incidunt, quasi itaque delectus tempore quae reprehenderit laboriosam, adipisci et quam molestiae iure dignissimos ab beatae odit distinctio perferendis officiis!</p>
+        </div>
+    </div>-->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-row">
+
+            <!-- Left: Logo -->
+            <div class="footer-left">
+                <img src="images/battylogo.png" alt="Batty Bakes Logo">
+            </div>
+
+            <!-- Center: Navigation -->
+            <nav class="footer-nav">
+                <a href="#">Home</a>
+                <a href="#">The Goods</a>
+                <a href="#">Order Here</a>
+                <a href="#">Contact Me!</a>
+            </nav>
+
+            <!-- Right: Social icons -->
+            <div class="footer-social">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+
+        </div>
+
+        <!-- Bottom centered row -->
+        <div class="footer-bottom">
+            <p>© 2024 Batty Bakes. All rights reserved.</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+
     </footer>
+
 </body>
 </html>
